@@ -41,11 +41,6 @@ logs/
 *.log
 log/
 
-# Docker
-.dockerignore
-Dockerfile*
-docker-compose.yml
-
 # Operating System
 .DS_Store
 Thumbs.db

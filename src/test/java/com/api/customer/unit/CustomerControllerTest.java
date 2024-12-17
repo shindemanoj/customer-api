@@ -51,6 +51,6 @@ public class CustomerControllerTest {
         mockMvc.perform(post("/api/customers")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(json))
-                .andExpect(status().isOk());
+                .andExpect(status().isCreated());
     }
 }
