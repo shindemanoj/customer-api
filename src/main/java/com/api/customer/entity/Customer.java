@@ -77,4 +77,8 @@ public class Customer {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    public UUID getId() {
+        return id;
+    }
 }
