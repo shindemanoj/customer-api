@@ -66,7 +66,7 @@ docker build -t customer-api:latest .
 ### 2. Run the Container
 
 ```bash
-docker run -p 8080:8080 customer-api:latest
+docker run -p 8080:8080 customer:latest
 ```
 
 The API will be accessible at: `http://localhost:8080`
